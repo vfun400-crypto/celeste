@@ -270,6 +270,17 @@
         gap: 0;
       }
 
+      .countdown-phrase {
+        margin: 1.6rem 0 0;
+        color: var(--pink-light);
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-size: clamp(1.15rem, 2.8vw, 1.5rem);
+        font-style: italic;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        opacity: 0.88;
+      }
+
       .seconds-ticker {
         margin-top: 0.65rem;
         color: rgba(210, 190, 225, 0.55);
@@ -621,6 +632,9 @@
                 <span class="time-label">segundos</span>
               </div>
             </div>
+
+            <!-- Frase debajo del contador -->
+            <p class="countdown-phrase">⏳ Unos pocos segundos más... 💗</p>
 
             <!-- Botón + contador de segundos -->
             <div class="button-area">
